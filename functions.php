@@ -27,3 +27,15 @@ wp_enqueue_script('MainJs', get_template_directory_uri(). '/assets/js/main.js', 
 }
 
 add_action('wp_enqueue_scripts', 'EnqStyles');
+
+
+function RegisterImage () {
+
+  add_theme_support('post-thumbnails');
+  add_image_size('portrait', 500,600, true);
+  add_image_size('landscape', 580,400, true);
+
+
+}
+
+add_action('after_setup_theme', 'RegisterImage');
