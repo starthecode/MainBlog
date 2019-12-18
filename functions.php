@@ -10,6 +10,30 @@ function EnqStyles () {
 
   wp_enqueue_style('FontAwe', get_template_directory_uri(). '/assets/css/font-awesome.min.css');
 
+  wp_enqueue_style('BdatePicker', get_template_directory_uri(). '/assets/css/bootstrap-datepicker.css');
+
+  wp_enqueue_style('JqueryUi', get_template_directory_uri(). '/assets/css/jquery-ui.css');
+
+  wp_enqueue_style('Aos', get_template_directory_uri(). '/assets/css/magnific-popup.css');
+
+  wp_enqueue_style('MediaElementPlayer', get_template_directory_uri(). '/assets/css/mediaelementplayer.css');
+
+  wp_enqueue_style('OwlCarousel', get_template_directory_uri(). '/assets/css/owl.carousel.min.css');
+
+  wp_enqueue_style('OwlTheme', get_template_directory_uri(). '/assets/css/owl.theme.default.min.css');
+
+  wp_enqueue_style('Aos', get_template_directory_uri(). '/assets/css/aos.css');
+
+  wp_enqueue_style('Aos', get_template_directory_uri(). '/assets/fonts/icomoon/style.css');
+
+  wp_enqueue_style('Aos', get_template_directory_uri(). '/assets/fonts/flaticon/font/flaticon.css">
+
+
+
+
+
+
+
   wp_enqueue_style('style', get_stylesheet_uri(), NULL, mt_rand(0,9));
 
 
