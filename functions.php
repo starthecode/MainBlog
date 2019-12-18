@@ -24,9 +24,9 @@ function EnqStyles () {
 
   wp_enqueue_style('Aos', get_template_directory_uri(). '/assets/css/aos.css');
 
-  wp_enqueue_style('Aos', get_template_directory_uri(). '/assets/fonts/icomoon/style.css');
+  wp_enqueue_style('IcoMoon', get_template_directory_uri(). '/assets/fonts/icomoon/style.css');
 
-  wp_enqueue_style('Aos', get_template_directory_uri(). '/assets/fonts/flaticon/font/flaticon.css">
+  wp_enqueue_style('FlatCon', get_template_directory_uri(). '/assets/fonts/flaticon/font/flaticon.css');
 
 
 
