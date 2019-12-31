@@ -3,7 +3,7 @@
 <div class="site-section bg-light">
 
   <div class="container tranding__text" style="display: flex;">
-    <h5>Tranding: </h5>
+    <h5>Tranding </h5>
 
     <div class="slider text-left">
 

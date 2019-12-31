@@ -37,13 +37,6 @@
 	      <div class="container-fluid">
 	        <div class="row align-items-center">
 
-	          <div class="col-12 search-form-wrap js-search-form">
-	            <form method="get" action="#">
-	              <input type="text" id="s" class="form-control" placeholder="Search...">
-	              <button class="search-btn" type="submit"><span class="icon-close"></span></button>
-	            </form>
-	          </div>
-
 	          <div class="col-3 site-logo">
 
 						<?php	if ( function_exists( 'the_custom_logo' ) ) {
@@ -74,7 +67,7 @@
 
 							<div class="col-1 site-logo">
 
-							<div class="d-none d-lg-inline-block"><a href="#" class="js-search-toggle"><span class="icon-search"></span></a></div> </div>
+							<div class="d-none d-lg-inline-block"><a href="#" class="js-search-toggle js-search-trigger"><span class="icon-search"></span></a></div> </div>
 
 	          </div>
 

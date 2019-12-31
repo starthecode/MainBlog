@@ -32,6 +32,9 @@ function EnqStyles () {
 
   wp_enqueue_style('SlickCss', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css');
 
+  wp_enqueue_style('SearchBox', get_template_directory_uri(). '/assets/css/search_box.css');
+
+
 
 
 
@@ -57,6 +60,9 @@ wp_enqueue_script('BootJs', get_template_directory_uri(). '/assets/js/bootstrap.
 wp_enqueue_script('SlickJs', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array( 'jquery' ), mt_rand(0,9), true);
 
 wp_enqueue_script('MainJs', get_template_directory_uri(). '/assets/js/main.js', array( 'jquery' ), mt_rand(0,9), true);
+
+wp_enqueue_script('BundledJs', get_template_directory_uri(). '/assets/js/scripts-bundled.js', NULL, mt_rand(0,9), true);
+
 
 
 
